@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rock Paper Scissors</title>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+<body>
+    <div class="container1 text-center my-5">
+        <div class="choice"><p>Make your choice!</p></div>
+        <div class="choice2">
+        <button class="btn btn-choice rock" name="Rock"></button>
+        <button class="btn btn-choice paper" name="Paper"></button>
+        <button class="btn btn-choice scissors" name="Scissors"></button>
+        </div>
+    </div>
+
+    <div class="row my-5">
+        <div class="col-6 text-center">
+            <h1 class="player-points">0</h1>
+            <h5 class="player-choice">Player</h5>
+        </div>
+        <div class="col-6 text-center">
+            <h1 class="computer-points">0</h1>
+            <h5 class="computer-choice">Computer</h5>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <h6 class="show-status"></h6>
+    </div>
+
+    <div class="container text-center">
+        <h1 class="winner-is"></h1>
+    </div>
+    <div class="text-center hidden">
+        <div class="reset">
+        <span>Rematch?</span>
+        <img class="arrow" src="pictures/Stencil-arrow-324x324.jpg" alt="arrow">
+        <button class="btn btn-reset">Reset</button>
+        </div>
+    </div>
+<script src="logic.js"></script>
+</body>
+
+
+</html>

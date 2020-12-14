@@ -1,0 +1,81 @@
+h1 {
+  font-weight:bold;
+}
+body {
+  display: flex;
+  justify-content: center;
+  margin-left: 3vh;
+  height: 30vh;
+  width: 100vh;
+  line-height: 24px;
+  text-align: left;
+  touch-action: manipulation;
+  
+}
+.container1 {
+  height:250px;
+  width:400px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.choice {
+  display: flex;
+  align-self:center;
+
+}
+.choice2 {
+  display:flex;
+  align-self: center;
+}
+
+.btn {
+  border: 1px solid;
+  width: 80px;
+  height: 80px;
+}
+
+.btn:hover {
+  background-color: rgb(255,191,161);
+  color: white;
+}
+
+.btn-choice {
+  align-self: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+  background-image: url('../pictures/paper.png')
+}
+
+.rock {
+  background-image: url('../pictures/rock.png')
+}
+.paper {
+  background-image: url('../pictures/paper.png')
+}
+.scissors {
+  background-image: url('../pictures/scissors.png')
+}
+
+.btn-reset {
+  background-color: rgb(255, 191, 161);
+  font-weight: bold;
+  height: 40px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.arrow {
+  margin: 11px;
+  width: 40px;
+  height: 40px;
+  transform: rotate(30deg);
+}
+
+.tester {
+  border: 2px solid red;
+
+}
